@@ -1,6 +1,6 @@
 # AzRanger
 
-The initial idea of the tool was to learn about Azure APIs and what possibilities exist to get different data from it. But then I thought okay, now you have a lot of data, what to do with it? So I added code to verify these information and settings agains different recommendations. It is not fully featured or reliable yet, but I will include more checks over time. I hope you find it useful too. 
+The initial idea of the tool was to learn about Azure APIs and what possibilities exist to get different data from it. But then I thought okay, now you have a lot of data, what to do with it? So I added code to verify these information and settings agains different recommendations. It is not fully featured or reliable yet, but I will include more checks over time. I hope you find it useful too.
 
 The tool is a learning project for me so the results may be incorrect or the tool may encounters some errors. So please provide feedback on any issues, recommendations or additional checks.
 
@@ -44,3 +44,7 @@ When you run it without --username and --password, then an interactive login wil
 ## Prerequisites
 
 The user should have the Role "Global Reader" or "Global Admin" assigned.
+
+## CIS Controls
+
+The tool implements various controls from CIS Benchmarks. For details on the controls implemented, see [CIS Controls](./CIS_Controls.md).
