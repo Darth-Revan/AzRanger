@@ -250,12 +250,6 @@ title = "Ensure that <i>Enable key rotation reminders</i> is enabled for each St
 level = "L1"
 version = "2.0"
 
-[AzStorAcMinTLS12]
-section = "3.12"
-title = "Ensure the 'Minimum TLS version' is set to 'Version 1.2'"
-level = "L1"
-version = "1.4"
-
 [AzStorAcMinTLSVersion]
 section = "3.15"
 title = "Ensure the <i>Minimum TLS version</i> for storage accounts is set to <i>Version 1.2</i>"

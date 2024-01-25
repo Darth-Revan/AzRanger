@@ -357,7 +357,6 @@
     <Compile Include="Checks\Rules\AzSQLServerAzADAdmin.cs" />
     <Compile Include="Checks\Rules\AzPSQLLogCheckpoints.cs" />
     <Compile Include="Checks\Rules\AzStorAcAccessKeyAge.cs" />
-    <Compile Include="Checks\Rules\AzStorAcMinTLS12.cs" />
     <Compile Include="Checks\Rules\AzStorAcMinTLSVersion.cs" />
     <Compile Include="Checks\Rules\AzStorAcKeyLastRotation.cs" />
     <Compile Include="Checks\Rules\AzStorAcKeyRotationReminder.cs" />

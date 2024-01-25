@@ -161,12 +161,6 @@ short = "Storage Account key rotation is not configured"
 risk = "If the Storage Accounts Access Keys are not regularly changed potentially compromised keys can result in long-term exploitable credential."
 solution = "Go to Storage Accounts and for each Storage Account go to *Access Key* and click the *Set rotation reminder*."
 
-[AzStorAcMinTLS12]
-score = 1
-short = "This Storage Accounts allows access with TL1.0 or TLS.1.1."
-risk = "There exists theoretical attacks for TLS1.2."
-solution = "Enable TLS1.2 for the here shown Sotrage Accounts."
-
 [AzStorAcMinTLSVersion]
 score = 1
 short = "Storage Account does allow legacy TLS protocols"

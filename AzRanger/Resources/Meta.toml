@@ -331,12 +331,6 @@ maturity = 1
 portal = "https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts"
 service = "StorageAccount"
 
-[AzStorAcMinTLS12]
-scope = "Azure"
-maturity = 1
-portal = "https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts"
-service = "StorageAccount"
-
 [AzStorAcMinTLSVersion]
 scope = "Azure"
 maturity = 1
