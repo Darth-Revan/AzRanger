@@ -1,60 +1,60 @@
 [ADPasswordHashSyncEnabled]
 section = "1.1.12"
-title = "<EMPTY>"
+title = "Ensure that password hash sync is enabled for hybrid deployments"
 level = "L1"
 version = "2.0"
 
 [ADPasswordProtection]
 section = "1.1.10"
-title = "<EMPTY>"
+title = "Ensure password protection is enabled for on-prem Active Directory"
 level = "L1"
 version = "2.0"
 
 [AzAppRegistration]
 section = "2.2"
-title = "<EMPTY>"
+title = "Ensure third party integrated applications are not allowed"
 level = "L2"
 version = "2.0"
 
 [AzB2BPolicy]
 section = "1.1.17"
-title = "<EMPTY>"
+title = " Ensure that collaboration invitations are sent to allowed domains only"
 level = "L2"
 version = "2.0"
 
 [AzPasswordPolicy]
 section = "1.4"
-title = "<EMPTY>"
+title = "Ensure the <i>Password expiration policy</i> is set to <i>Set passwords to never expire (recommended)</i>"
 level = "L1"
 version = "2.0"
 
 [AzSecurityDefaultsO365]
 section = "1.1.1"
-title = "<EMPTY>"
+title = "Ensure Security Defaults is disabled on Azure Active Directory"
 level = "L1"
 version = "2.0"
 
 [CABlockLegacyAuth]
-section = "1.1.6"
-title = "<EMPTY>"
+section = "1.1.11"
+title = "Enable Conditional Access policies to block legacy authentication"
 level = "L1"
 version = "2.0"
 
 [EXOAdminAuditLogConfig]
 section = "5.2"
-title = "<EMPTY>"
+title = "Ensure Microsoft 365 audit log search is Enabled"
 level = "L1"
 version = "2.0"
 
 [EXOAutomaticForwarding]
 section = "4.3"
-title = "<EMPTY>"
+title = "Ensure all forms of mail forwarding are blocked and/or disabled"
 level = "L1"
 version = "2.0"
 
 [EXOCheckSPF]
 section = "4.8"
-title = "<EMPTY>"
+title = "Ensure that SPF records are published for all Exchange Domains"
 level = "L1"
 version = "2.0"
 
@@ -72,79 +72,79 @@ version = "1.5-3"
 
 [EXOCommonAttachmentFilter]
 section = "4.1"
-title = "<EMPTY>"
+title = "Ensure the Common Attachment Types Filter is enabled"
 level = "L1"
 version = "2.0"
 
 [EXODKIM]
 section = "4.7"
-title = "<EMPTY>"
+title = "Ensure that DKIM is enabled for all Exchange Online Domains"
 level = "L1"
 version = "2.0"
 
 [EXODMARC]
 section = "4.9"
-title = "<EMPTY>"
+title = "Ensure DMARC Records for all Exchange Online domains are published"
 level = "L1"
 version = "2.0"
 
 [EXOMailboxAudit]
 section = "5.3"
-title = "<EMPTY>"
+title = "Ensure mailbox auditing for all users is Enabled"
 level = "L1"
 version = "2.0"
 
 [EXOMailTipps]
 section = "4.11"
-title = "<EMPTY>"
+title = "Ensure MailTips are enabled for end users"
 level = "L2"
 version = "2.0"
 
 [EXOModernauthentication]
 section = "1.2"
-title = "<EMPTY>"
+title = "Ensure modern authentication for Exchange Online is enabled"
 level = "L1"
 version = "2.0"
 
 [EXONotifcationUsersSendingMalware]
 section = "4.10"
-title = "<EMPTY>"
+title = "Ensure notifications for internal users sending malware is Enabled"
 level = "L1"
 version = "2.0"
 
 [EXOOutlookAddins]
 section = "2.8"
-title = "<EMPTY>"
+title = "Ensure users installing Outlook add-ins is not allowed"
 level = "L2"
 version = "2.0"
 
 [EXOOwaExternalStorageProvider]
 section = "6.5"
-title = "<EMPTY>"
+title = "Ensure additional storage providers are restricted in Outlook on the web"
 level = "L2"
 version = "2.0"
 
 [EXOSpamPolicy]
 section = "4.2"
-title = "<EMPTY>"
+title = "Ensure Exchange Online Spam Policies are set to notify administrators"
 level = "L1"
 version = "2.0"
 
 [EXOWhitelistBypass]
 section = "4.4"
-title = "<EMPTY>"
+title = "Ensure mail transport rules do not whitelist specific domains"
 level = "L1"
 version = "2.0"
 
 [GroupPublic]
 section = "1.1.16"
-title = "<EMPTY>"
+title = "Ensure that only organizationally managed/approved public groups exist"
 level = "L2"
 version = "2.0"
 
 [M365WebStorageProvider]
 section = "6.4"
-title = "<EMPTY>"
+title = "Ensure <i>third-party storage services</i> are restricted in <i>Microsoft 365 on the web</i>"
 level = "L2"
 version = "2.0"
 
@@ -216,156 +216,156 @@ version = "1.4"
 
 [OfficeAddIns]
 section = "2.9"
-title = "<EMPTY>"
+title = "Ensure <i>User owned apps and services</i> is restricted"
 level = "L1"
 version = "2.0"
 
 [OfficeCalenderSharing]
 section = "2.3"
-title = "<EMPTY>"
+title = "Ensure <i>External sharing</i> of calendars is not available"
 level = "L2"
 version = "2.0"
 
 [OfficeDLPLabels]
 section = "3.2"
-title = "<EMPTY>"
+title = "Ensure SharePoint Online Information Protection policies are set up and used"
 level = "L2"
 version = "2.0"
 
 [OfficeDLPPolicies]
 section = "3.4"
-title = "<EMPTY>"
+title = "Ensure DLP policies are enabled"
 level = "L1"
 version = "2.0"
 
 [OfficeFormsPhishingProtection]
 section = "2.10"
-title = "<EMPTY>"
+title = "Ensure internal phishing protection for Forms is enabled"
 level = "L1"
 version = "2.0"
 
 [OfficeSwaySettings]
 section = "2.11"
-title = "<EMPTY>"
+title = "Ensure that Sways cannot be shared with people outside of your organization"
 level = "L1"
 version = "2.0"
 
 [SPOEntraB2BEnabled]
 section = "2.12"
-title = "<EMPTY>"
+title = "Ensure SharePoint and OneDrive integration with Azure AD B2B is enabled"
 level = "L1"
 version = "2.0"
 
 [SPOExpireExternalLinks]
 section = "6.3"
-title = "<EMPTY>"
+title = "Ensure expiration time for external sharing links is set"
 level = "L1"
 version = "2.0"
 
 [SPOGuestSharing]
 section = "3.6"
-title = "<EMPTY>"
+title = "Ensure that SharePoint guest users cannot share items they don't own"
 level = "L2"
 version = "2.0"
 
 [SPOLegacyAuth]
 section = "1.3"
-title = "<EMPTY>"
+title = "Ensure modern authentication for SharePoint applications is required"
 level = "L1"
 version = "2.0"
 
 [SPOOneDriveSync]
 section = "6.2"
-title = "<EMPTY>"
+title = "Block OneDrive for Business sync from unmanaged devices"
 level = "L2"
 version = "2.0"
 
 [SPOSharing]
 section = "6.1"
-title = "<EMPTY>"
+title = "Ensure SharePoint external sharing is managed through domain whitelist/blacklists"
 level = "L2"
 version = "2.0"
 
 [TeamsExternalCommunication]
 section = "3.3"
-title = "<EMPTY>"
+title = "Ensure <i>external access</i> is restricted in the Teams admin center"
 level = "L2"
 version = "2.0"
 
 [TeamsExternalSharingProvider]
 section = "3.7"
-title = "<EMPTY>"
+title = "Ensure external file sharing in Teams is enabled for only approved cloud storage services"
 level = "L2"
 version = "2.0"
 
 [UserAdminConsent]
 section = "2.1"
-title = "<EMPTY>"
+title = "Ensure the admin consent workflow is enabled"
 level = "L1"
 version = "2.0"
 
 [UserAllAdminsHaveMFA]
 section = "1.1.2"
-title = "<EMPTY>"
+title = "Ensure multifactor authentication is enabled for all users in administrative roles"
 level = "L1"
 version = "2.0"
 
 [UserAllowCreationOfAzureTenants]
 section = "1.1.22"
-title = "<EMPTY>"
+title = "Ensure <i>Restrict non-admin users from creating tenants</i> is set to <i>Yes</i>"
 level = "L1"
 version = "2.0"
 
 [UserAllUserHaveMFA]
 section = "1.1.4"
-title = "<EMPTY>"
+title = "Ensure multifactor authentication is enabled for all users"
 level = "L1"
 version = "2.0"
 
 [UserConsent]
 section = "2.7"
-title = "<EMPTY>"
+title = "Ensure user consent to apps accessing company data on their behalf is not allowed"
 level = "L2"
 version = "2.0"
 
 [UserLinkedInConnection]
 section = "1.1.18"
-title = "<EMPTY>"
+title = "Ensure <i>LinkedIn account connections</i> is disabled"
 level = "L2"
 version = "2.0"
 
 [UserMax4GlobalAdmins]
 section = "1.1.7"
-title = "<EMPTY>"
+title = "Ensure that between two and four global admins are designated"
 level = "L1"
 version = "2.0"
 
 [UserMFAFatigueProtection]
 section = "1.1.5"
-title = "<EMPTY>"
+title = "Ensure Microsoft Authenticator is configured to protect against MFA fatigue"
 level = "L1"
 version = "2.0"
 
 [UserPasswordBadPasswordList]
-section = "1.1.10"
-title = "<EMPTY>"
+section = "1.1.9"
+title = "Ensure custom banned passwords lists are used"
 level = "L1"
 version = "2.0"
 
 [UserPasswordSelfService]
 section = "1.1.8"
-title = "<EMPTY>"
+title = "Ensure <i>Self service password reset enabled</i> is set to <i>All</i>"
 level = "L1"
 version = "2.0"
 
 [UserRemainSignIn]
 section = "1.1.19"
-title = "<EMPTY>"
+title = "Ensure the option to remain signed in is hidden"
 level = "L2"
 version = "2.0"
 
 [UserRestrictAccessToAdminPortal]
 section = "1.1.20"
-title = "<EMPTY>"
+title = "Ensure <i>Restrict access to the Azure AD administration portal</i> is set to <i>Yes</i>"
 level = "L1"
 version = "2.0"
