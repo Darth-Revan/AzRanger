@@ -244,11 +244,6 @@ scope = "Azure"
 maturity = 1
 portal = "https://portal.azure.com/?l=en.en-us#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/Overview"
 
-[AzSecurityContactsNotifiedForHigh]
-scope = "Azure"
-maturity = 1
-portal = "https://portal.azure.com/?l=en.en-us#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/Overview"
-
 [AzSecurityDefaultsO365]
 scope = "AAD"
 maturity = 1

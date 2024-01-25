@@ -172,12 +172,6 @@ title = "Ensure 'Additional email addresses' is Configured with a Security Conta
 level = "L1"
 version = "1.4"
 
-[AzSecurityContactsNotifiedForHigh]
-section = "2.14"
-title = "Ensure That 'Notify about alerts with the following severity' is Set to 'High'"
-level = "L1"
-version = "1.4"
-
 [AzSQLAuditingEnabled]
 section = "4.1.1"
 title = "Ensure that <i>Auditing</i> is set to <i>On</i>"

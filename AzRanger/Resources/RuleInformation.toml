@@ -559,11 +559,6 @@ score = 2
 short = "LogAnalytics Agent is not automatically deployed on VMs"
 risk = "If no logAnalytics Agent is deployed on a VM a lot of security related events can go unoticed."
 
-[AzSecurityContactsNotifiedForHigh]
-score = 2
-short = "The owner is not notified in case of a \"High\" security alert"
-risk = "This can increase the time when an incident could be handled."
-
 [AzStorAcSecureTransfer]
 score = 1
 short = "StorageAccounts does not require a secure connection"
