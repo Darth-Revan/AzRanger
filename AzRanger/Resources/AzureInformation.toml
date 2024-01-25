@@ -178,12 +178,6 @@ title = "Ensure That 'Notify about alerts with the following severity' is Set to
 level = "L1"
 version = "1.4"
 
-[AzSecurityContactsNotifyOwner]
-section = "2.15"
-title = "Ensure That 'All users with the following roles' is set to 'Owner'"
-level = "L1"
-version = "1.4"
-
 [AzSQLAuditingEnabled]
 section = "4.1.1"
 title = "Ensure that <i>Auditing</i> is set to <i>On</i>"
