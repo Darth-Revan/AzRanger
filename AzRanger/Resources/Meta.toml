@@ -239,11 +239,6 @@ scope = "AAD"
 maturity = 1
 portal = "https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/General/menuId/General"
 
-[AzSecurityContacts]
-scope = "Azure"
-maturity = 1
-portal = "https://portal.azure.com/?l=en.en-us#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/Overview"
-
 [AzSecurityDefaultsO365]
 scope = "AAD"
 maturity = 1

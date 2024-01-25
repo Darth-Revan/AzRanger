@@ -166,12 +166,6 @@ title = "Ensure that <i>Restrict user ability to access groups features in the A
 level = "L2"
 version = "2.0"
 
-[AzSecurityContacts]
-section = "2.13"
-title = "Ensure 'Additional email addresses' is Configured with a Security Contact Email"
-level = "L1"
-version = "1.4"
-
 [AzSQLAuditingEnabled]
 section = "4.1.1"
 title = "Ensure that <i>Auditing</i> is set to <i>On</i>"

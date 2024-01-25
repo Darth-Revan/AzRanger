@@ -1,10 +1,6 @@
 ﻿using AzRanger.Models;
 using AzRanger.Models.AzMgmt;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AzRanger.Checks.Rules
 {
@@ -13,29 +9,24 @@ namespace AzRanger.Checks.Rules
         public override CheckResult Audit(Tenant tenant)
         {
             bool passed = true;
-            
             foreach(Subscription sub in tenant.Subscriptions.Values)
             {
-                if (sub.SecurityContact[0].properties.notificationsByRole.state.Equals("On") && sub.SecurityContact[0].properties.alertNotifications.state.Equals("On"))
+                if (sub.SecurityContact == null || sub.SecurityContact.Count == 0)
                 {
-                    if (sub.SecurityContact[0].properties.emails.Length == 0)
-                    {
-                        AddAffectedEntity(sub);
-                        passed = false;
-                    }
-                }
-                else
-                {
-                    AddAffectedEntity(sub);
+                    this.AddAffectedEntity(sub);
                     passed = false;
+                    continue;
+                }
+
+                if (sub.SecurityContact.Any(x => x.properties.emails.Length == 0))
+                {
+                    this.AddAffectedEntity(sub);
+                    passed = false;
+                    continue;
                 }
             }
-            
-            if(passed)
-            {
-                return CheckResult.NoFinding;
-            }
-            return CheckResult.Finding;
+
+            return passed ? CheckResult.NoFinding : CheckResult.Finding;
         }
     }
 }

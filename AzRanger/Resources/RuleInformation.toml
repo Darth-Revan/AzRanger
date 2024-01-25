@@ -483,11 +483,6 @@ short = "Legacy Authentication methods is not blocked by Conditional Access"
 risk = "This can expose your tenant to password brute force or password spraying attacks."
 long = "Legacy authentication does not support techniques like MFA."
 
-[AzSecurityContacts]
-score = 2
-short = "Subscribion without security contact"
-risk = "In case of an incident, this could increase the time span to identify the legitimate owner or responsible person for a subscription."
-
 [AzKeyVSecretExpiration]
 score = 1
 short = "Key Vault secret will never expire"
