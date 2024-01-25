@@ -150,3 +150,89 @@
 | 9.10 | App Service | &cross; | - |
 | 9.11 | App Service | &cross; | - |
 | 10.1 | Resource Locks | &cross; | - |
+
+## CIS Microsoft 365 Foundations Benchmark 2.0.0
+
+| Control | Service | Implemented? | Implemented in Check |
+| ------- | ------- | ------------ | -------------------- |
+| 1.1.1 | Entra ID | &check; | AzSecurityDefaultsO365 |
+| 1.1.2 | Entra ID | &check; | UserAllAdminsHaveMFA |
+| 1.1.3 | Entra ID | &cross; | - |
+| 1.1.4 | Entra ID | &check; | UserAllUserHaveMFA |
+| 1.1.5 | Entra ID | &check; | UserMFAFatigueProtection |
+| 1.1.6 | Entra ID | &cross; | - |
+| 1.1.7 | Entra ID | &check; | UserMax4GlobalAdmins |
+| 1.1.8 | Entra ID | &check; | UserPasswordSelfService |
+| 1.1.9 | Entra ID | &check; | UserPasswordBadPasswordList |
+| 1.1.10 | Entra ID | &check; | ADPasswordProtection |
+| 1.1.11 | Entra ID | &check; | CABlockLegacyAuth |
+| 1.1.12 | Entra ID | &check; | ADPasswordHashSyncEnabled |
+| 1.1.13 | Entra ID | &cross; | - |
+| 1.1.14 | Entra ID | &cross; | - |
+| 1.1.15 | Entra ID | &cross; | - |
+| 1.1.16 | Entra ID | &check; | GroupPublic |
+| 1.1.17 | Entra ID | &check; | AzB2BPolicy |
+| 1.1.18 | Entra ID | &check; | UserLinkedInConnection |
+| 1.1.19 | Entra ID | &check; | UserRemainSignIn |
+| 1.1.20 | Entra ID | &check; | UserRestrictAccessToAdminPortal |
+| 1.1.21 | Entra ID | &cross; | - |
+| 1.1.22 | Entra ID | &check; | UserAllowCreationOfAzureTenants |
+| 1.2 | Entra ID | &check; | EXOModernauthentication |
+| 1.3 | Entra ID | &check; | SPOLegacyAuth |
+| 1.4 | Entra ID | &check; | AzPasswordPolicy |
+| 1.5 | Entra ID | &cross; | - |
+| 1.6 | Entra ID | &cross; | - |
+| 1.7 | Entra ID | &cross; | - |
+| 2.1 | Applications | &check; | UserAdminConsent |
+| 2.2 | Applications | &check; | AzAppRegistration |
+| 2.3 | Applications | &check; | OfficeCalenderSharing |
+| 2.4 | Applications | &cross; | - |
+| 2.5 | Applications | &cross; | - |
+| 2.6 | Applications | &cross; | - |
+| 2.7 | Applications | &check; | UserConsent |
+| 2.8 | Applications | &check; | EXOOutlookAddins |
+| 2.9 | Applications | &check; | OfficeAddIns |
+| 2.10 | Applications | &check; | OfficeFormsPhishingProtection |
+| 2.11 | Applications | &check; | OfficeSwaySettings |
+| 2.12 | Applications | &check; | SPOEntraB2BEnabled |
+| 3.1 | Data Management | &cross; | - |
+| 3.2 | Data Management | &check; | OfficeDLPLabels |
+| 3.3 | Data Management | &check; | TeamsExternalCommunication |
+| 3.4 | Data Management | &check; | OfficeDLPPolicies |
+| 3.5 | Data Management | &cross; | - |
+| 3.6 | Data Management | &check; | SPOGuestSharing |
+| 3.7 | Data Management | &check; | TeamsExternalSharingProvider |
+| 4.1 | Exchange Online | &check; | EXOCommonAttachmentFilter |
+| 4.2 | Exchange Online | &check; | EXOSpamPolicy |
+| 4.3 | Exchange Online | &check; | EXOAutomaticForwarding |
+| 4.4 | Exchange Online | &check; | EXOWhitelistBypass |
+| 4.5 | Exchange Online | &cross; | - |
+| 4.6 | Exchange Online | &cross; | - |
+| 4.7 | Exchange Online | &check; | EXODKIM |
+| 4.8 | Exchange Online | &check; | EXOCheckSPF |
+| 4.9 | Exchange Online | &check; | EXODMARC |
+| 4.10 | Exchange Online | &check; | EXONotifcationUsersSendingMalware |
+| 4.11 | Exchange Online | &check; | EXOMailTipps |
+| 4.12 | Exchange Online | &cross; | - |
+| 4.13 | Exchange Online | &cross; | - |
+| 5.1.1 | Access Reviews | &cross; | - |
+| 5.1.2 | Access Reviews | &cross; | - |
+| 5.2 | Access Reviews | &check; | EXOAdminAuditLogConfig |
+| 5.3 | Access Reviews | &check; | EXOMailboxAudit |
+| 5.4 | Access Reviews | &cross; | - |
+| 5.5 | Access Reviews | &cross; | - |
+| 5.6 | Access Reviews | &cross; | - |
+| 5.7 | Access Reviews | &cross; | - |
+| 5.8 | Access Reviews | &cross; | - |
+| 5.9 | Access Reviews | &cross; | - |
+| 5.10 | Access Reviews | &cross; | - |
+| 5.11 | Access Reviews | &cross; | - |
+| 5.12 | Access Reviews | &cross; | - |
+| 5.13 | Access Reviews | &cross; | - |
+| 5.14 | Access Reviews | &cross; | - |
+| 5.15 | Access Reviews | &cross; | - |
+| 6.1 | Storage | &check; | SPOSharing |
+| 6.2 | Storage | &check; | SPOOneDriveSync |
+| 6.3 | Storage | &check; | SPOExpireExternalLinks |
+| 6.4 | Storage | &check; | M365WebStorageProvider |
+| 6.5 | Storage | &check; | EXOOwaExternalStorageProvider |
