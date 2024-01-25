@@ -208,12 +208,6 @@ title = "Ensure no Azure SQL Databases allow ingress from 0.0.0.0/0 (ANY IP)"
 level = "L1"
 version = "2.0"
 
-[AzStorAcAccessKeyAge]
-section = "3.2"
-title = "Ensure That Storage Account Access Keys are Periodically Regenerated"
-level = "L1"
-version = "1.4"
-
 [AzStorAcAllowTrustedServices]
 section = "3.9"
 title = "Ensure <i>Allow Azure services on the trusted services list to access this storage account</i> is Enabled for Storage Account Access"

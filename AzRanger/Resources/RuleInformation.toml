@@ -131,12 +131,6 @@ risk = "There exist some theoretical attacks on TLS 1.0 and TLS 1.1."
 long = "There is no need nowadays to offer TLS ciphers lower than 1.2."
 solution = "For each SQLServer go to *Security -> Networking -> Connectivity* and set *Minimum TLS version* to *TLS1.2*."
 
-[AzStorAcAccessKeyAge]
-score = 1
-short = "Old access key for storage account"
-risk = "If an attacker gets the access key he can access the sotrage account as long as it is vaild."
-solution = "Change the access key for your Sotrage Accounts regularly"
-
 [AzStorAcContainerPublicAccess]
 score = 1
 short = "Storage Account Container with \"Public Access Level\""

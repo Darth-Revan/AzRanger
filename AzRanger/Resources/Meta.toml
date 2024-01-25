@@ -289,12 +289,6 @@ maturity = 1
 portal = "https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Sql%2Fservers"
 service = "SQLServer"
 
-[AzStorAcAccessKeyAge]
-scope = "Azure"
-maturity = 1
-portal = "https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Storage%2FStorageAccounts"
-service = "StorageAccount"
-
 [AzStorAcAllowTrustedServices]
 scope = "Azure"
 maturity = 1
